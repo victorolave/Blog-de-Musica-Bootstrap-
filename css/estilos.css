@@ -28,13 +28,60 @@ header .redes
     padding: 10px;
 }
 
-@media only screen and (max-width: 360px)
+@media only screen and (min-width: 1200px)
+{
+    header .redes
+    {
+        margin-left: 470px;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px)
+{
+    header .redes
+    {
+        margin-left: 400px;
+        bottom: 0;
+        right: 0;
+        padding: 1px;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width:991px)
+{
+    header .redes
+    {
+        margin-left: 300px;
+        bottom: 0;
+        right: 0;
+        padding: 1px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px)
 {
     header .redes
     {
         margin-left: 0px;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
     }
-} 
+}
+
+@media only screen and (max-width: 600px)
+{
+    header .redes
+    {
+        margin-left: 0px;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+    }
+}
 
 header .logo
 {
