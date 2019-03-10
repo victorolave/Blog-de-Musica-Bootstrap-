@@ -148,3 +148,12 @@ nav
 	width: 55px;
 	border-radius: 5px;
 }
+
+@media only screen and (max-width: 768px)
+{
+   .post .thumb
+   {
+       width: 100%;
+       margin-bottom: 20px;
+   } 
+}
